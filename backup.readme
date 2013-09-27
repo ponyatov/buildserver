@@ -1,0 +1,2 @@
+some configs for build server pw by linux
+can't use git for backup thus /etc/shadow /etc/passwd files can't by published @github
