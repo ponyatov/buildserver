@@ -1,0 +1,3 @@
+#!/bin/sh
+tar cmpl -T /backup 2>/dev/null | gzip -c9 - > /var/backups/`hostname`.`date +%Y%m%d%H%M%S`.tgz
+chmod 400 /var/backups/*
